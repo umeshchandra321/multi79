@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {   
-        stage('dev file') { 
+        stage('umesh2.0 file') { 
             steps { 
-               sh 'echo "This is dev branch"' 
+               sh 'echo "This is umesh branch"' 
             }
         }
      
