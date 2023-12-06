@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {   
-        stage('sprint file') { 
+        stage('updated file') { 
             steps { 
-               sh 'echo "This is sprint branch"' 
+               sh 'echo "This is updated branch"' 
             }
         }
      
